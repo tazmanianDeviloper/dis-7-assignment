@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`The AgeVerification component should render 1`] = `
+<div>
+  <h2>
+    To enter this website, you need to be at least 18 years old.
+  </h2>
+  <label
+    htmlFor="age"
+  >
+    How old are you? 
+  </label>
+  <input
+    id="age"
+    onChange={[Function]}
+    value=""
+  />
+  <button
+    onClick={[Function]}
+  >
+    Check Age
+  </button>
+</div>
+`;

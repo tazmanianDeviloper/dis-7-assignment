@@ -6,7 +6,7 @@ export default function AgeVerification() {
     const [welcomeMessageVisible, setWelcomeMessageVisible] = useState(false);
 
     const checkAge = () => {
-        const ageInput = parseInt(age);
+        const ageInput = Number(age);
 
         if (isNaN(ageInput) || ageInput < 0) {
             setErrorMessage('Your answer is not acceptable! Please put a new one!');
